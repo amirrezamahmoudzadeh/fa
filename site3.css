@@ -406,6 +406,9 @@ textarea{
         font-weight: bold;
         margin-bottom: 1.1rem;
     }
+    .conect h3{
+        font-size : 2em;
+        margin top 0;
 }
 @media (max-width:450px){
     .main_nav span{
@@ -426,5 +429,9 @@ textarea{
     }
     .logo{
         width: 13rem;
+    }
+        .main_nav ul li{
+        font-size: 1em;
+        padding-left: 1.5rem;
     }
 }
