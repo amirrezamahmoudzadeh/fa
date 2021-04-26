@@ -276,7 +276,6 @@ a{
 .conect .wrapper h3{
     font-size: 3em;
     color: var(--manin-color);
-    margin-top: -2rem;
 }
 .conect .wrapper p{
     color: var(--manin-color);
@@ -322,10 +321,13 @@ textarea{
    resize: none;
    text-align: center;
 }
+input{
+    resize: none;
+}
 @media (max-width:1100px){
     .main_nav span{
         display: inline-block;
-        font-size: 3em;
+        font-size: 2em;
         margin-top: 0.5rem;
     }
     .main_nav ul{
@@ -340,8 +342,8 @@ textarea{
         height: 100vh;
     }
     .main_nav ul li{
-        font-size: 2.2em;
-        padding-left: 3.5rem;
+        font-size: 1em;
+        padding-left: 1.5rem;
     }
     .main_nav ul li a{
         border-bottom: var(--manin-color) 1px solid ;
@@ -394,7 +396,7 @@ textarea{
         width: 80%;
     }
     .main_nav ul li{
-        font-size: 1.2em;
+        font-size: 0.8em;
         padding-left: 1.5rem;
     }
     .content p{
@@ -406,9 +408,9 @@ textarea{
         font-weight: bold;
         margin-bottom: 1.1rem;
     }
-    .conect h3{
-        font-size : 2em;
-        margin top 0;
+    .conect .wrapper h3{
+        font-size: 1.6em;
+    }
 }
 @media (max-width:450px){
     .main_nav span{
@@ -425,13 +427,10 @@ textarea{
         height: 1.8;
     }    
     .content h1{
-        font-size: 1.5em;
+        font-size: 1.9em;
+        margin-top: 0;
     }
     .logo{
         width: 13rem;
-    }
-        .main_nav ul li{
-        font-size: 1em;
-        padding-left: 1.5rem;
     }
 }
